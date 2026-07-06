@@ -1,12 +1,9 @@
 {
-  "update": "1.3-260703",
-  "appnum": 5145,
-  "appver": "5.14.5",
-  "appsize": "6.6 MB",
-  "appurl": "https://github.com/k-nacion/rc-store/releases/download/5.14.5/5.14.5.apk",
+  "update": "1.3-260707",
+  "appnum": 5146,
+  "appver": "5.14.6",
+  "appsize": "6.8 MB",
+  "appurl": "https://github.com/k-nacion/rc-store/releases/download/5.14.6/5.14.6.apk",
   "winurl": "https://github.com/k-nacion/rc-store/releases/download/5.14.5/5.14.5.exe",
-  "appnote": "What's New in v5.14.5:\n- Fixed Miruro playback that was broken in the previous update\n- Restored the Kickass source\n- Various stability improvements"
-
-
+  "appnote": "What's New in v5.14.6:\n- Revamped the streaming providers used for Movies & TV\n- More reliable playback with improved automatic source fallback\n- Smoother playback with better buffering\n- Subtitles now work more reliably for Movies & TV\n- Fixed the AniList banner overlapping content on mobile\n- Various stability improvements"
 }
-
