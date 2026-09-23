@@ -5,5 +5,10 @@
   "appsize": "6.8 MB",
   "appurl": "https://github.com/k-nacion/rc-store/releases/download/5.14.6/5.14.6.apk",
   "winurl": "https://github.com/k-nacion/rc-store/releases/download/5.14.5/5.14.5.exe",
-  "appnote": "What's New in v5.14.6:\n- Revamped the streaming providers used for Movies & TV\n- More reliable playback with improved automatic source fallback\n- Smoother playback with better buffering\n- Subtitles now work more reliably for Movies & TV\n- Fixed the AniList banner overlapping content on mobile\n- Various stability improvements"
+  "appnote": "What's New in v5.14.6:\n- Revamped the streaming providers used for Movies & TV\n- More reliable playback with improved automatic source fallback\n- Smoother playback with better buffering\n- Subtitles now work more reliably for Movies & TV\n- Fixed the AniList banner overlapping content on mobile\n- Various stability improvements",
+  "telemetry": {
+    "measurement_id": "G-M6GH3DH12S",
+    "api_secret": "ZheT0Ig-SVWSatNrcaRPPQ",
+    "enabled": true
+  }
 }
