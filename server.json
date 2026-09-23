@@ -1,9 +1,9 @@
 {
-  "update": "1.3-260707",
-  "appnum": 5146,
-  "appver": "5.14.6",
+  "update": "1.3-260923",
+  "appnum": 5150,
+  "appver": "5.15.0",
   "appsize": "6.8 MB",
-  "appurl": "https://github.com/k-nacion/rc-store/releases/download/5.14.6/5.14.6.apk",
-  "winurl": "https://github.com/k-nacion/rc-store/releases/download/5.14.5/5.14.5.exe",
-  "appnote": "What's New in v5.14.6:\n- Revamped the streaming providers used for Movies & TV\n- More reliable playback with improved automatic source fallback\n- Smoother playback with better buffering\n- Subtitles now work more reliably for Movies & TV\n- Fixed the AniList banner overlapping content on mobile\n- Various stability improvements"
+  "appurl": "https://github.com/k-nacion/rc-store/releases/download/5.15.0/5.15.0.apk",
+  "winurl": "https://github.com/k-nacion/rc-store/releases/download/5.15.0/5.15.0.exe",
+  "appnote": "What's New in v5.15.0:\n- All-New Anime Auto Source: automated multi-provider streaming with intelligent fallback across Re-anime, Anikoto, AnimeGG, AniZone, and AniNeko\n- Full Trakt Integration: scrobble watch progress, sync watchlists & continue watching across devices with anime episode mapping\n- Subtitle Styling Overhaul: customize character edges, background opacity, offsets, and preview live in settings\n- Restored Standalone Anime Sources: KickAss, Anikoto, and Miruro alongside Auto Source\n- Restored Anime Episode Filler Notices directly on episode lists\n- Upgraded Movies & TV Streaming: new sources (Cinezo, Peachify, Rivestream) with parallel provider loading and top quality selection\n- Modern glassmorphic custom wallpaper picker with live preview\n- Redesigned touch and TV Mega Skip buttons for faster navigation\n- Smoother playback with hardware media acceleration on Android TV\n- General stability and performance improvements"
 }
