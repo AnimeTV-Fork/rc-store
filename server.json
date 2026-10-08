@@ -1,9 +1,9 @@
 {
-  "update": "1.3-261003",
-  "appnum": 5152,
-  "appver": "5.15.2",
+  "update": "1.3-261008",
+  "appnum": 5153,
+  "appver": "5.15.3",
   "appsize": "6.8 MB",
-  "appurl": "https://github.com/k-nacion/rc-store/releases/download/5.15.2/5.15.2.apk",
-  "winurl": "https://github.com/k-nacion/rc-store/releases/download/5.15.2/5.15.2.exe",
-  "appnote": "What's New in v5.15.2:\n- Re:ANIME Provider Integration: prioritized in Auto Source rotation and standalone source with WebCrypto stream decryption\n- Multi-Track Audio & Soft Subtitles: full multi-language audio track selection and in-player subtitle track switching\n- Search Filter Modal Drawer: modern glassmorphic filter dialog aligned with design system\n- Enhanced CDN Routing: CORS bypass and header routing for electrocdn.top, fallencdn.top, and vid-cdn.xyz\n- Stream Delivery Optimizations: HTTP Range header forwarding for AnimeGG and v1 API migration for Miruro\n- Graceful Auto Fallback: instant recovery from Ani-Cli Cloudflare captchas and AniNeko upstream outages\n- Restored official app branding and updated community links"
+  "appurl": "https://github.com/k-nacion/rc-store/releases/download/5.15.3/5.15.3.apk",
+  "winurl": "https://github.com/k-nacion/rc-store/releases/download/5.15.3/5.15.3.exe",
+  "appnote": "What's New in v5.15.3:\n- Miruro Android TV Fix: migrated to v1 REST API with native XOR catalog decoding and ExoPlayer CDN header routing\n- Standalone Re:ANIME Source: added standalone source selection and playback routing on Android TV\n- Domain Benchmark Health Checks: fixed sidebar validation for Miruro and purged dead KickAss proxy domains\n- Authentication Polling Resilience: restored AniList and MyAnimeList OAuth token relay with timeout guards\n- Trakt Login UI Polish: enhanced QR code dialog contrast for better visibility on TV screens"
 }
