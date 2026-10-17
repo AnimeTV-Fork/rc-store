@@ -1,0 +1,64 @@
+Change 1: Add paint-order: stroke fill to Subtitle Selectors
+
+This forces the white letter fill to paint over the stroke, hiding all internal overlapping contours and leaving only the clean outer outline.
+
+In m.css (Line ~2158) & fm.css (Line ~2550):
+
+Original:
+
+css
+#vtt_subtitle_preview *,
+#vtt_subtitle *{
+  text-shadow: -.1vw -.1vw .05vw #000,
+  .1vw -.1vw .05vw #000,
+   -.1vw .1vw .05vw #000,
+   .1vw .1vw .05vw #000,
+  0 0 .1vw #000, 0 0 .2vw #000, .1vw .1vw .4vw #000 !important;
+  -webkit-text-stroke-color: #000 !important;
+}
+
+Replace with:
+
+css
+#vtt_subtitle_preview *,
+#vtt_subtitle *{
+  paint-order: stroke fill !important;
+  -webkit-paint-order: stroke fill !important;
+  text-shadow: -.1vw -.1vw .05vw #000,
+  .1vw -.1vw .05vw #000,
+   -.1vw .1vw .05vw #000,
+   .1vw .1vw .05vw #000,
+  0 0 .1vw #000, 0 0 .2vw #000, .1vw .1vw .4vw #000 !important;
+  -webkit-text-stroke-color: #000 !important;
+}
+In m.css (Line ~2240) & fm.css (Line ~2634):
+
+Original:
+
+css
+.vtt_style_primary *,
+.vtt_style_blue *,
+.vtt_style_black *{
+  text-shadow: -.1vw -.1vw .05vw #fff,
+  .1vw -.1vw .05vw #fff,
+   -.1vw .1vw .05vw #fff,
+   .1vw .1vw .05vw #fff,
+  0 0 .1vw #000, 0 0 .2vw #000, .1vw .1vw .4vw #000 !important;
+  -webkit-text-stroke-color: #fff !important;
+}
+
+Replace with:
+
+css
+.vtt_style_primary *,
+.vtt_style_blue *,
+.vtt_style_black *{
+  paint-order: stroke fill !important;
+  -webkit-paint-order: stroke fill !important;
+  text-shadow: -.1vw -.1vw .05vw #fff,
+  .1vw -.1vw .05vw #fff,
+   -.1vw .1vw .05vw #fff,
+   .1vw .1vw .05vw #fff,
+  0 0 .1vw #000, 0 0 .2vw #000, .1vw .1vw .4vw #000 !important;
+  -webkit-text-stroke-color: #fff !important;
+}
